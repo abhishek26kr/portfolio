@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abhishek Kumar — BTech CSE student using AI to learn, build, test, question and create." />
+  <meta property="og:title" content="Abhishek Kumar — AI × Education × Technology" />
+  <meta property="og:description" content="BTech CSE student, AI practitioner and builder. Real projects, AI workflows and a learner-first approach to educational content." />
+  <meta name="theme-color" content="#f2efe8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <title>Abhishek Kumar — AI × Education × Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Abhishek Kumar home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      ABHISHEK<span>.</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#ai">AI</a>
+      <a href="#testing">Testing</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="nav-right">
+      <span class="scroll-meter" aria-hidden="true"><span id="progress"></span></span>
+      <a class="nav-cta" href="#contact">Let's talk ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-kicker reveal">
+        <span class="kicker-mark" aria-hidden="true"></span>
+        BTECH CSE · SOUTH ASIAN UNIVERSITY
+      </div>
+
+      <h1 class="hero-title reveal">
+        I don't just use AI<br />
+        <span>to get answers.</span>
+      </h1>
+
+      <p class="hero-subtitle reveal">
+        I use AI to <strong>learn, build, test, question and create</strong> —
+        and I care about what actually works for the person on the other side of the screen.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a class="button button-dark" href="#work">See the real work <span>↓</span></a>
+        <a class="button button-light" href="assets/Abhishek_Kumar_AI_Resume.pdf" download>Download resume ↗</a>
+        <a class="button button-light" href="#point-of-view">My AI point of view</a>
+      </div>
+
+      <div class="hero-bottom reveal">
+        <span>ABHISHEK KUMAR</span>
+        <span>AI × EDUCATION × TECHNOLOGY × CONTENT</span>
+      </div>
+    </section>
+
+    <section id="work" class="section section-border work-section">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">01 / SELECTED WORK</div>
+          <h2>Proof first.<br /><span>Process second.</span></h2>
+        </div>
+        <p>
+          Real builds and real collaboration are more useful than a list of “AI skills.”
+          These are the projects I want you to judge me on.
+        </p>
+      </div>
+
+      <!-- NyreeOS -->
+      <article class="case-study case-dark reveal" data-case="nyree">
+        <div class="case-copy">
+          <div class="case-topline">
+            <span>01 · PRODUCT BUILDING</span>
+            <span>NYREEOS / RETAILOS</span>
+          </div>
+
+          <h3>NyreeOS</h3>
+          <p class="case-lede">
+            A pharmacy operating system shaped around a real local-business workflow:
+            billing, inventory, supplier purchases, customer credit, hold orders and reporting.
+          </p>
+
+          <div class="case-facts">
+            <div><span>WHY</span><strong>Replace paper-heavy operations with one working system.</strong></div>
+            <div><span>HOW</span><strong>Understand → design → prototype → test → iterate.</strong></div>
+          </div>
+
+          <div class="case-links">
+            <a class="button button-accent" href="https://github.com/abhishek26kr/nyreeos" target="_blank" rel="noreferrer">Open repository ↗</a>
+            <a class="case-link light" href="#nyree-gallery">Explore the product ↓</a>
+          </div>
+        </div>
+
+        <div class="case-visual">
+          <div class="visual-bar">
+            <span>REAL PRODUCT SCREEN</span>
+            <span>CLICK A VIEW BELOW</span>
+          </div>
+
+          <button class="hero-shot image-trigger" type="button" data-gallery="nyree" data-index="0" aria-label="Open NyreeOS dashboard screenshot">
+            <img id="nyree-main" src="assets/nyree-dashboard.jpg" alt="NyreeOS dashboard screenshot" />
+          </button>
+
+          <div class="gallery-nav" id="nyree-gallery">
+            <button class="gallery-tab active" type="button" data-gallery="nyree" data-index="0">01 · Dashboard</button>
+            <button class="gallery-tab" type="button" data-gallery="nyree" data-index="1">02 · Billing</button>
+            <button class="gallery-tab" type="button" data-gallery="nyree" data-index="2">03 · Inventory</button>
+            <button class="gallery-tab" type="button" data-gallery="nyree" data-index="3">04 · Reports</button>
+          </div>
+          <p class="gallery-caption" id="nyree-caption">
+            Operational overview for sales, stock levels, credit and expiry watch.
+          </p>
+        </div>
+      </article>
+
+      <!-- Creator / media kit -->
+      <article class="case-study case-light reveal" data-case="media">
+        <div class="case-visual media-visual">
+          <div class="visual-bar">
+            <span>REAL SHIPPED PROJECT</span>
+            <span>PRANJAL MEDIA KIT</span>
+          </div>
+
+          <button class="hero-shot image-trigger" type="button" data-gallery="media" data-index="0" aria-label="Open Pranjal Media Kit screenshot">
+            <img id="media-main" src="assets/media-hero.jpg" alt="Pranjal Kumar media kit hero screenshot" />
+          </button>
+
+          <div class="gallery-nav light-tabs">
+            <button class="gallery-tab active" type="button" data-gallery="media" data-index="0">01 · Hero</button>
+            <button class="gallery-tab" type="button" data-gallery="media" data-index="1">02 · Reach</button>
+            <button class="gallery-tab" type="button" data-gallery="media" data-index="2">03 · Packages</button>
+            <button class="gallery-tab" type="button" data-gallery="media" data-index="3">04 · Audience</button>
+          </div>
+          <p class="gallery-caption" id="media-caption">
+            A creator-facing media kit designed and built from scratch with Claude-assisted development.
+          </p>
+        </div>
+
+        <div class="case-copy">
+          <div class="case-topline">
+            <span>02 · CREATOR / CONTENT</span>
+            <span>PRANJAL KUMAR</span>
+          </div>
+
+          <h3>Media Kit + Brand Operations</h3>
+          <p class="case-lede">
+            I built Pranjal Kumar’s media-kit site from scratch using Claude, then used the
+            creator side of the workflow to research brands, handle outreach and bring a different audience perspective.
+          </p>
+
+          <div class="case-facts">
+            <div><span>BUILD</span><strong>Brief → structure → interface → iteration → live deployment.</strong></div>
+            <div><span>COLLAB</span><strong>Brand discovery, outreach and content perspective.</strong></div>
+          </div>
+
+          <div class="case-links">
+            <a class="button button-dark" href="https://pranjal-mediakit.netlify.app/" target="_blank" rel="noreferrer">Open live media kit ↗</a>
+            <a class="case-link" href="https://www.linkedin.com/in/abhishekkumargurua/" target="_blank" rel="noreferrer">My LinkedIn ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- VeloTask -->
+      <article class="case-study compact-case reveal">
+        <div class="compact-copy">
+          <div class="case-topline">
+            <span>03 · WEB + APP</span>
+            <span>VELOTASK</span>
+          </div>
+          <h3>VeloTask</h3>
+          <p class="case-lede">
+            A productivity experience built as a live website with task management,
+            focus sessions, timer controls and activity tracking. You also built an APK version.
+          </p>
+
+          <div class="tag-row">
+            <span>WEB</span><span>APK</span><span>TASKS</span><span>FOCUS TIMER</span>
+          </div>
+
+          <div class="case-links">
+            <a class="button button-dark" href="https://abhishek26kr.github.io/VeloTask/" target="_blank" rel="noreferrer">Open live site ↗</a>
+            <a class="case-link" href="https://github.com/abhishek26kr/VeloTask" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="compact-visual">
+          <button class="image-trigger" type="button" data-gallery="velo" data-index="0" aria-label="Open VeloTask screenshot">
+            <img src="assets/velotask.jpg" alt="VeloTask live website screenshot" />
+          </button>
+          <div class="compact-caption">
+            <span>LIVE WEB EXPERIENCE</span>
+            <span>CLICK TO VIEW</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Earlier work -->
+      <div class="archive reveal">
+        <div class="archive-label">EARLIER BUILD / ARCHIVE · 04</div>
+        <div class="archive-main">
+          <div>
+            <h3>Bihari Bites</h3>
+            <p>
+              An earlier recipe-site build. Kept here as part of the progression rather than presented as a flagship project.
+            </p>
+          </div>
+          <a href="https://abhishek26kr.github.io/Bihari-Bites/index.html" target="_blank" rel="noreferrer">View live site ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai" class="section section-border">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">02 / AI IN PRACTICE</div>
+          <h2>AI is a tool.<br /><span>The workflow is mine.</span></h2>
+        </div>
+        <p>
+          I don't want to prove that I can prompt well. I want to show that I can build a useful loop around a tool.
+        </p>
+      </div>
+
+      <div class="workflow-grid">
+        <article class="workflow-card reveal" data-workflow="study">
+          <span class="card-index">01</span>
+          <h3>Study</h3>
+          <p>Explanation → practice → quiz → correction → revision.</p>
+          <button class="text-button" type="button">Open →</button>
+        </article>
+        <article class="workflow-card reveal" data-workflow="code">
+          <span class="card-index">02</span>
+          <h3>Code</h3>
+          <p>Review the bug, understand why, attempt the fix, test it.</p>
+          <button class="text-button" type="button">Open →</button>
+        </article>
+        <article class="workflow-card reveal" data-workflow="research">
+          <span class="card-index">03</span>
+          <h3>Research</h3>
+          <p>Question → research → compare → cross-check → synthesize.</p>
+          <button class="text-button" type="button">Open →</button>
+        </article>
+        <article class="workflow-card reveal" data-workflow="build">
+          <span class="card-index">04</span>
+          <h3>Build</h3>
+          <p>Problem → requirements → prototype → test → iterate.</p>
+          <button class="text-button" type="button">Open →</button>
+        </article>
+      </div>
+
+      <div id="workflow-panel" class="workflow-panel reveal" aria-live="polite">
+        <div class="panel-label">01 / STUDY</div>
+        <div class="panel-content">
+          <div class="panel-copy">
+            <h3>AI as an interactive tutor.</h3>
+            <p>I use the first answer as a starting point, not the finish line.</p>
+          </div>
+          <div class="step-track" id="step-track"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="point-of-view" class="section section-border pov-section">
+      <div class="pov-grid">
+        <div class="reveal">
+          <div class="eyebrow">03 / POINT OF VIEW</div>
+          <h2>I think AI will become<br /><span>ordinary infrastructure.</span></h2>
+        </div>
+        <div class="pov-copy reveal">
+          <p class="pov-quote">
+            “I don't think AI will stay a ‘special skill.’ I think it will become a normal layer of everyday computing.”
+          </p>
+          <p>
+            A musician, painter, coder, editor, researcher, teacher, student, employee or shopkeeper
+            doesn't need to become a computer scientist to benefit from a computer. I think AI will move in a similar direction.
+          </p>
+          <p class="pov-last">
+            The interesting question for me isn't whether people will use AI. It's how they will learn to use it well.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testing" class="section section-border">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">04 / COURSE TESTING</div>
+          <h2>I try to break<br /><span>educational content.</span></h2>
+        </div>
+        <p>
+          This is the contribution I want to make to AI education: test from the learner side before the learner sees it.
+        </p>
+      </div>
+
+      <div class="testing-layout">
+        <div class="testing-intro reveal">
+          <p class="big-quote">What feels obvious to an expert can be confusing to a beginner.</p>
+          <p>
+            I look for the exact point where a student may pause, misunderstand a step, lose context,
+            or fail to reproduce a workflow.
+          </p>
+        </div>
+
+        <div class="testing-grid">
+          <div class="test-item reveal"><span>01</span><h3>Clarity</h3><p>Can a beginner follow it without hidden prerequisites?</p></div>
+          <div class="test-item reveal"><span>02</span><h3>Practicality</h3><p>Can the learner actually use it after the lesson?</p></div>
+          <div class="test-item reveal"><span>03</span><h3>Confusion</h3><p>Where is the first likely point of hesitation?</p></div>
+          <div class="test-item reveal"><span>04</span><h3>Tool testing</h3><p>Does the demonstrated AI workflow behave as described?</p></div>
+          <div class="test-item reveal"><span>05</span><h3>Relevance</h3><p>Would a college student realistically care about it?</p></div>
+          <div class="test-item reveal"><span>06</span><h3>Perspective</h3><p>Is there a simpler or different way to frame the idea?</p></div>
+        </div>
+      </div>
+
+      <div class="sample-review reveal">
+        <div class="sample-head">
+          <span>MY REVIEW FORMAT</span>
+          <span>USE ON A REAL LESSON</span>
+        </div>
+        <div class="sample-grid">
+          <div><strong>WHAT WORKED</strong><p>Clear explanation, useful example, easy-to-follow sequence.</p></div>
+          <div><strong>WHERE I PAUSED</strong><p>What assumed prior knowledge or created friction?</p></div>
+          <div><strong>WHAT I WOULD CHANGE</strong><p>Add, remove, reorder or reframe the part that slowed the learner down.</p></div>
+          <div><strong>WHY IT MATTERS</strong><p>The goal is not more content. The goal is less learner friction.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-build-log" class="section section-border">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">05 / AI BUILD LOG</div>
+          <h2>AI helped build<br /><span>this portfolio too.</span></h2>
+        </div>
+        <p>
+          Not “AI made my resume.” A deliberate workflow: different models, different jobs,
+          human decisions in the loop.
+        </p>
+      </div>
+
+      <div class="build-log">
+        <div class="log-step reveal">
+          <span>01</span><strong>Abhishek</strong>
+          <p>Defined the audience, story, evidence and what should be left out.</p>
+        </div>
+        <div class="log-arrow" aria-hidden="true">→</div>
+        <div class="log-step reveal">
+          <span>02</span><strong>ChatGPT</strong>
+          <p>Helped structure the portfolio, write the first implementation and iterate.</p>
+        </div>
+        <div class="log-arrow" aria-hidden="true">→</div>
+        <div class="log-step reveal">
+          <span>03</span><strong>Claude</strong>
+          <p>Independently critiqued the design, identified template signals and challenged the content strategy.</p>
+        </div>
+        <div class="log-arrow" aria-hidden="true">→</div>
+        <div class="log-step reveal">
+          <span>04</span><strong>Abhishek</strong>
+          <p>Tests, edits, rejects, rebuilds and makes the final decisions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-border">
+      <div class="about-grid">
+        <div class="about-title reveal">
+          <div class="eyebrow">06 / ABOUT</div>
+          <h2>Curious enough<br />to question.</h2>
+          <h2 class="outline-title">Practical enough<br />to test.</h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p>
+            I'm <strong>Abhishek Kumar</strong>, currently pursuing a B.Tech in Computer Science Engineering
+            at <strong>South Asian University</strong>.
+          </p>
+          <p>
+            I'm interested in the overlap between AI, software, education and content —
+            especially where technology can remove friction from something people already do.
+          </p>
+
+          <div class="about-links">
+            <a href="https://github.com/abhishek26kr" target="_blank" rel="noreferrer">
+              <span>GitHub</span><strong>View work ↗</strong>
+            </a>
+            <a href="https://www.linkedin.com/in/abhishekkumargurua/" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span><strong>Connect ↗</strong>
+            </a>
+            <a href="mailto:abhishekkumargurua26@gmail.com">
+              <span>Email</span><strong>abhishekkumargurua26@gmail.com ↗</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <div class="eyebrow">07 / CONTACT</div>
+        <h2>Have something worth<br />testing or building?</h2>
+        <p>
+          I'm interested in work where a technical student perspective,
+          practical AI experimentation and honest learner feedback can make the result better.
+        </p>
+
+        <div class="email-block">
+          <span>EMAIL</span>
+          <strong>abhishekkumargurua26@gmail.com</strong>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-dark" href="mailto:abhishekkumargurua26@gmail.com">Email Abhishek ↗</a>
+          <button class="button button-light" id="copy-email" type="button">Copy email</button>
+          <a class="button button-light" href="assets/Abhishek_Kumar_AI_Resume.pdf" download>Download resume ↗</a>
+          <a class="button button-light" href="https://www.linkedin.com/in/abhishekkumargurua/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+
+        <div class="contact-foot">
+          <span>ABHISHEK KUMAR · 2026</span>
+          <span>DESIGNED + ITERATED WITH AI · CHATGPT × CLAUDE</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>ABHISHEK KUMAR</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Project image viewer">
+      <button class="lightbox-close" type="button" data-close-lightbox aria-label="Close image viewer">×</button>
+      <div class="lightbox-top">
+        <span id="lightbox-label">PROJECT VIEW</span>
+        <span id="lightbox-count">01 / 01</span>
+      </div>
+      <img id="lightbox-image" src="" alt="" />
+      <div class="lightbox-bottom">
+        <button type="button" id="prev-image">← Previous</button>
+        <span id="lightbox-caption"></span>
+        <button type="button" id="next-image">Next →</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
